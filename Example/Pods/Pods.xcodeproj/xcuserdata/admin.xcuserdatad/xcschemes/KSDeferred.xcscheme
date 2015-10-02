@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4B8A8346EC5D6A22E70E71F"
-               BuildableName = "FileManager.framework"
-               BlueprintName = "FileManager"
+               BlueprintIdentifier = "19BEB9F6DDD05C061B550C74"
+               BuildableName = "KSDeferred.framework"
+               BlueprintName = "KSDeferred"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

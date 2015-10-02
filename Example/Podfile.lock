@@ -1,8 +1,10 @@
 PODS:
   - FileManager (0.1.0)
+  - KSDeferred (0.3.0)
 
 DEPENDENCIES:
   - FileManager (from `../`)
+  - KSDeferred
 
 EXTERNAL SOURCES:
   FileManager:
@@ -10,5 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FileManager: 29e35981dcc203222e2151212f4e8d3de8b03c83
+  KSDeferred: 7bb8156c988ed2a5e40111521d34dfb7a0390d23
 
 COCOAPODS: 0.38.2

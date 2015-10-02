@@ -12,6 +12,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		62DE3A1192E2C561E303E70D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFACEB02137463F86760B88C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F2452616A8C10982DB777480 /* Pods_FileManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045616D3B717B6D943DBAD0F /* Pods_FileManager_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		CD0737EA5EC65B1EEED242C9 /* Pods-FileManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FileManager_Tests/Pods-FileManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD4E7B0CD67AB041F252E733 /* FileManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FileManager.podspec; path = ../FileManager.podspec; sourceTree = "<group>"; };
+		EFACEB02137463F86760B88C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				F2452616A8C10982DB777480 /* Pods_FileManager_Tests.framework in Frameworks */,
+				62DE3A1192E2C561E303E70D /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +78,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				045616D3B717B6D943DBAD0F /* Pods_FileManager_Tests.framework */,
+				EFACEB02137463F86760B88C /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,7 +216,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FileManager_Tests/Pods-FileManager_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9056D7F400490FC36BA6B4E1 /* Copy Pods Resources */ = {

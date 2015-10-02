@@ -14,29 +14,23 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KSDeferred.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-FileManager_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>0908D30713AF906275DDAB16213AEC32</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AD01E285F61D22A93ABFBB1A9429BCF5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E8D749FC58DE2AF54D9E8ABE5B675C25</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

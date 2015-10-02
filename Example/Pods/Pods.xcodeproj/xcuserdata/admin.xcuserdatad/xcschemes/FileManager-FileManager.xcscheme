@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B3C46E094DDD22BE67567CB2"
+               BlueprintIdentifier = "6D13E05D067BAA824C359623"
                BuildableName = "FileManager.bundle"
                BlueprintName = "FileManager-FileManager"
                ReferencedContainer = "container:Pods.xcodeproj">
